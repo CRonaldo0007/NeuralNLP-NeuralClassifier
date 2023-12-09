@@ -6,7 +6,7 @@
     "hierar_penalty": 0.000001
   },
   "device": "cuda",
-  "model_name": "TextCNN",
+  "model_name": "TextRNN",
   "checkpoint_dir": "checkpoint_dir_rcv1",
   "model_dir": "trained_model_rcv1",
   "data": {
@@ -75,7 +75,7 @@
   },
   "optimizer": {
     "optimizer_type": "Adam",
-    "learning_rate": 0.001,
+    "learning_rate": 0.005,
     "adadelta_decay_rate": 0.95,
     "adadelta_epsilon": 1e-08
   },
