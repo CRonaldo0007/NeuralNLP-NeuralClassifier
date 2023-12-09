@@ -109,7 +109,7 @@
     "dir": "eval_dir",
     "batch_size": 1024,
     "is_flat": true,
-    "top_k": 14,
+    "top_k": 15,
     "model_dir": "checkpoint_dir_rcv1/TextCNN_best"
   },
   "TextVDCNN": {
